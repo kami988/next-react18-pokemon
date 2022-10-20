@@ -14,5 +14,5 @@ RUN mkdir -p /repo
 VOLUME /repo
 WORKDIR /repo
 
-EXPOSE 3000
+EXPOSE 3010
 CMD ["bash", "/init.sh"]

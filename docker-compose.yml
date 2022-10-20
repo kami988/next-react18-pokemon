@@ -1,13 +1,13 @@
 version: "3"
 
 services:
-  next-react18-pokemon:
+  nextjs:
     build: ./
     volumes:
       - "kami988.next-react18-pokemon:/repo"
     tty: true
     ports:
-      - "9080:3000"
+      - "3010:3000"
     env_file:
       - ./.env
 
