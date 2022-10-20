@@ -1,10 +1,10 @@
 version: "3"
 
 services:
-  nextjs:
+  dev-poke-front:
     build: ./
     volumes:
-      - "kami988.next-react18-pokemon:/repo"
+      - "poke.front.repo:/repo"
     tty: true
     ports:
       - "3010:3000"
@@ -12,4 +12,4 @@ services:
       - ./.env
 
 volumes:
-  kami988.next-react18-pokemon:
+  poke.front.repo:

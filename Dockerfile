@@ -1,6 +1,6 @@
 FROM node:16.18.0-buster
 
-LABEL Name="next-react18-pokemon"
+LABEL Name="poke-front"
 LABEL Version="1.0.0"
 
 ENV GITHUB_USER_NAME=GITHUB-user-name
