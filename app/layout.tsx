@@ -1,5 +1,5 @@
+import './globals.css'
 import Link from 'next/link'
-import Head from 'next/head'
 import Image from 'next/image'
 
 type LayoutProps = Required<{
